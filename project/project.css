@@ -1,0 +1,170 @@
+/* 主体信息 */
+#container{
+    width: 990px;
+    margin: 0px auto;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:#64A131;
+}
+body{
+    font: 13px "微软雅黑";
+    color: #9A9A9A;
+}
+#nav{
+    background:#eee;
+    height: 30px;
+    line-height: 30px;
+}
+img{
+    vertical-align: bottom;
+}
+ /*右侧导航栏  */
+.rightNav{
+    float: right;
+}
+.rightNav>li{
+    padding: 0px 5px;
+    float: left;
+}
+.rightNav>li a{
+    color: #9A9A9A;
+}
+.rightNav b{
+    border-left: 1px solid #9a9a9a;
+	margin-right: 10px;
+}
+/* 左侧导航栏 */
+.leftNav{
+    float: left;
+}
+.leftNav>li{
+    float: left;
+    color: #9A9A9A;
+    padding-left: 10px;
+}
+.leftNav li:first-child u{
+    height: 0px;
+    width: 0px;
+    border: 6px solid transparent;
+    border-top: 6px solid black;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+.select{
+    display: none;
+    z-index: 100;
+}
+.leftNav li:first-child{
+    position: relative;
+}
+.leftNav li:first-child:hover .select{
+    display: block;
+    position: absolute;
+    background: red;
+}
+/* 横幅 */
+#banner{
+    margin-top: 15px;
+    overflow: hidden;
+    position: relative;
+}
+#banner img{
+    width: 990px;
+    height: 207px;
+}
+#banner img:not(:first-child){
+    display: none;
+}
+.indexImg{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.indexImg li{
+    float: left;
+    margin: 0px 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background:#eee;
+    text-align: center;
+    line-height: 20px;
+}
+.indexImg li:first-child{
+	background:red;
+}
+
+/* 今日推荐 */
+#adv{
+    margin-top: 15px;
+    overflow: hidden;
+}
+#adv img{
+    float: left;
+    margin-right: 10px;
+    width: 240px
+}
+#adv .lastImg{
+    margin-right: 0px;
+}
+#main .head span{
+    float: right;
+    margin-top: 20px;
+    color: #9A9A9A;
+}
+/* 礼品卡券 */
+#main .content .picture{
+    width: 188px;
+    float: left;
+
+    transition: all 0.3s;
+}
+#main .content .picture:hover{
+    transform: scale(1.1);
+}
+#main .content #lastimg{
+    margin-right: 0px;
+}
+.content ul li p,.content li{
+    overflow: hidden;
+}
+.content ul li>p{
+    margin-bottom: 5px;
+    width: 190px;
+}
+.content ul li{
+
+    margin-right: 8px;
+}
+
+.price{
+    width: 184px;
+}
+.price a img{
+    float: right;
+    width: 30px;
+}
+.price p{
+    margin-bottom: 5px;
+}
+.content ul li{
+    float: left;
+}
+#main{
+    margin-top: 15px;
+}
+.goodprice{
+    border-top: 1px solid #ccc;
+}
+
